@@ -17,12 +17,11 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style.css" media="all" />
+    <link rel="stylesheet" href="./style.css" media="screen" />
     <title>Starbucks Coffee Company</title>
   </head>
 
   <body>
-    <div class="circle"></div>
     <header>
       <nav class="navbar" role="navigation">
         <!-- Logo -->
@@ -49,8 +48,12 @@
               <span>Find a store</span>
             </a>
           </li>
-          <li><button class="btn btn-dark-outline">Sign in</button></li>
-          <li><button class="btn btn-dark">Join now</button></li>
+          <li>
+            <button class="btn">Sign in</button>
+          </li>
+          <li>
+            <button class="btn btn-dark">Join now</button>
+          </li>
         </ul>
         <!-- Burger button -->
         <button type="button" id="burger">
@@ -75,7 +78,7 @@
           <hr />
 
           <div class="mobile-menu-bottom">
-            <button class="btn btn-dark-outline">Sign in</button>
+            <button class="btn">Sign in</button>
             <button class="btn btn-dark">Join now</button>
             <div>
               <a href="#">
@@ -87,6 +90,8 @@
         </div>
       </nav>
     </header>
+    <!-- Half circle -->
+    <div class="circle"></div>
 
     <main>
       <div class="txt-content">
@@ -95,17 +100,20 @@
           Discover our newest cooler-than-cool frappucinos blended beverages :
           matcha, pink paradise and unicorn.
         </p>
-        <button class="btn btn-green-outline"><a href="#">Order now</a></button>
+        <button class="btn btn-green-outline">
+          <a href="#">Learn more</a>
+        </button>
       </div>
       <div class="img-content">
         <img
           src="./images/frappuccino-green-matcha.png"
-          alt="atcha frapuccino"
+          class="matcha"
+          alt="matcha frapuccino"
         />
       </div>
     </main>
 
-    <ul class="thumb">
+    <ul class="thumbnails">
       <li>
         <img
           src="./images/frappuccino-green-matcha.png"
