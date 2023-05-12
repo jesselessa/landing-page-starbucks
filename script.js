@@ -1,3 +1,4 @@
+// MOBILE NAVIGATION
 const btn = document.querySelector("#burger");
 const nav = document.querySelector("#burger-menu");
 
@@ -7,3 +8,4 @@ function navToggle() {
   nav.classList.toggle("hidden");
   document.body.classList.toggle("no-scroll");
 }
+
