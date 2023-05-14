@@ -527,6 +527,11 @@ footer p {
     align-items: center;
   }
 }
+@media screen and (max-width: 768px) {
+  .mainImg {
+    width: 130px;
+  }
+}
 
 @media screen and (max-width: 530px) {
   .logo {
@@ -538,9 +543,6 @@ footer p {
   }
   main .txt-content {
     gap: 2rem;
-  }
-  .mainImg {
-    width: 130px;
   }
   .thumbnails li img {
     max-width: 48px;
@@ -555,4 +557,3 @@ footer p {
     display: block;
   }
 }
-
