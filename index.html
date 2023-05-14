@@ -22,6 +22,8 @@
   </head>
 
   <body>
+    <!-- Screen orientation message -->
+    <div id="turn"><div><p>Please, turn your device.</p></div></div>
     <header>
       <nav class="navbar" role="navigation">
         <!-- Logo -->
@@ -95,10 +97,10 @@
 
     <main>
       <div class="txt-content">
-        <h2>The new frapuccinos are here !!!</h2>
+        <h2>New frapuccinos</h2>
         <p>
-          Discover our newest cooler-than-cool frappucinos blended beverages :
-          matcha, pink paradise and unicorn.
+          Discover our delicious frappucinos blended beverages&nbsp;: matcha,
+          pink paradise and unicorn.
         </p>
         <button class="btn btn-green-outline">
           <a href="#">Learn more</a>
@@ -107,7 +109,7 @@
       <div class="img-content">
         <img
           src="./images/frappuccino-green-matcha.png"
-          class="matcha"
+          class="mainImg"
           alt="matcha frapuccino"
         />
       </div>
@@ -126,15 +128,77 @@
       </li>
     </ul>
 
-    <!-- <div class="content"></div>
-    <div class="content"></div>
-    <div class="content"></div> -->
+    <!-- Box 1 -->
+    <section class="grid-col-2 box1">
+      <div class="img-content"><img src="./images/gift-card.jpg" alt="" /></div>
+      <div class="txt-content mom">
+        <h2 class="text-xl">For the bestest Mom ever</h2>
+        <p>
+          Let her know how much she's loved. Surprise her with a Starbucks eGift
+          this Mother's Day.
+        </p>
+        <button class="btn"><a href="#">Send an e-gift</a></button>
+      </div>
+    </section>
 
-    <!-- <section></section>
-    <section></section>
-    <section></section> -->
+    <!-- Box 2 -->
+    <section class="grid-col-2 box2 reversed">
+      <div class="txt-content macadamia">
+        <h2 class="text-xl">Macadamia just dropped</h2>
+        <p>
+          Introducing the White Chocolate Macadamia Cream Cold Brew with toasted
+          cookie crumbles.
+        </p>
+        <button class="btn"><a href="#">Order Now</a></button>
+      </div>
+      <div class="img-content"><img src="./images/cold-brew.jpg" alt="" /></div>
+    </section>
 
-    <!-- <footer></footer> -->
+    <!-- Box 3 -->
+    <section class="grid-col-2 box3">
+      <div class="img-content">
+        <img src="./images/cake-pops.webp" alt="" />
+      </div>
+
+      <div class="txt-content hive">
+        <h2>Sweetest of the hive</h2>
+        <p>
+          Buzzing into the café, an adorable new Bumblebee Cake Pop dipped in
+          chocolaty icing.
+        </p>
+        <button class="btn"><a href="#">Order Now</a></button>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="social-links">
+        <a href="https://spotify.com" target="_blank">
+          <img src="./images/spotify.svg" alt="" />
+        </a>
+        <a href="https://facebook.com" target="_blank">
+          <img src="./images/facebook.svg" alt="" />
+        </a>
+        <a href="https://pinterest.com" target="_blank">
+          <img src="./images/pinterest.svg" alt="" />
+        </a>
+        <a href="https://instagram.com" target="_blank">
+          <img src="./images/instagram.svg" alt="" />
+        </a>
+        <a href="https://youtube.com" target="_blank">
+          <img src="./images/youtube.svg" alt="" />
+        </a>
+        <a href="https://twitter.com" target="_blank">
+          <img src="./images/twitter.svg" alt="" />
+        </a>
+      </div>
+      <p>
+        &copy; <span class="year"></span> Starbucks Coffee Company. All rights
+        reserved.
+      </p>
+    </footer>
 
     <script src="./script.js" async></script>
   </body>
