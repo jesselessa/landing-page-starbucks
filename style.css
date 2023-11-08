@@ -328,7 +328,6 @@ main .txt-content a {
   right: 0;
   top: 126px;
   width: 50%;
-  /* height: 75%; */
   min-height: calc(100vh - 126px);
   border-top-left-radius: 100%;
   border-top-right-radius: 0;
@@ -524,11 +523,6 @@ footer p {
     align-items: center;
   }
 }
-@media screen and (max-width: 768px) {
-  .mainImg {
-    width: 130px;
-  }
-}
 
 @media screen and (max-width: 530px) {
   .logo {
@@ -536,13 +530,10 @@ footer p {
     height: 40px;
   }
   h2 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
   }
   main .txt-content {
     gap: 2rem;
-  }
-  .thumbnails li img {
-    max-width: 48px;
   }
   .social-links {
     padding-left: 1rem;
