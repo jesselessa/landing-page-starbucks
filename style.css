@@ -257,7 +257,7 @@ header {
 
 /*! MAIN */
 main {
-  height: calc(100vh - 126px);
+  min-height: calc(100vh - 126px);
   /* 126px = height of header */
   max-width: 100%;
   position: relative;
@@ -326,8 +326,10 @@ main .txt-content a {
   position: absolute;
   bottom: 0;
   right: 0;
+  top: 126px;
   width: 50%;
-  height: 75%;
+  /* height: 75%; */
+  min-height: calc(100vh - 126px);
   border-top-left-radius: 100%;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
@@ -432,29 +434,6 @@ footer p {
   justify-content: space-between;
 }
 
-/*! SCREEN ORIENTATION MESSAGE */
-#turn {
-  display: none;
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  background: #fff;
-  z-index: 100;
-}
-
-#turn div {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-#turn div p {
-  font-size: 3rem;
-}
-
 /*! MEDIA QUERIES */
 @media screen and (max-width: 1024px) {
   main .txt-content {
@@ -475,6 +454,7 @@ footer p {
   #burger,
   #burger-menu {
     display: block;
+    z-index: 300;
   }
   .navbar .nav-left,
   .navbar .nav-right {
@@ -482,21 +462,38 @@ footer p {
   }
   main {
     flex-direction: column-reverse;
-    height: calc(100vh - 80px);
+    min-height: calc(100vh - 80px);
     padding: 1rem;
   }
   main .txt-content,
   main .img-content {
-    height: calc((100vh - 80px) / 2);
+    position: absolute;
+    height: 100%;
     width: 100%;
   }
   main .txt-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     gap: 3rem;
   }
+  main h2 {
+    padding-top: 40px;
+    z-index: 100;
+  }
+  main .btn {
+    position: absolute;
+    bottom: -10px;
+    margin-top: 10px;
+  }
+
   main .img-content {
     align-items: flex-end;
+    top: 0;
   }
   .mainImg {
+    position: absolute;
+    bottom: 12%;
     width: 160px;
   }
   section .txt-content {
@@ -507,7 +504,7 @@ footer p {
     height: 40%;
   }
   .thumbnails {
-    bottom: 48%;
+    bottom: 12%;
     left: 50%;
   }
   .grid-col-2 {
@@ -549,11 +546,5 @@ footer p {
   }
   .social-links {
     padding-left: 1rem;
-  }
-}
-/* Screen orientation message */
-@media (orientation: landscape) and (max-width: 992px) {
-  #turn {
-    display: block;
   }
 }
