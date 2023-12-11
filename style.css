@@ -423,9 +423,6 @@ footer p {
   margin: 2rem auto 4rem;
 }
 
-.copyright {
-  text-align: center;
-}
 /* Grid Styles */
 .grid-col-2 {
   display: grid;
