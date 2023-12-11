@@ -394,13 +394,13 @@ section .txt-content a {
 }
 
 footer {
-  padding: 0 3rem 3rem;
+  padding: 0 3rem 1.5rem;
 }
 
 .social-links {
   display: flex;
   align-items: center;
-  margin: 2rem 0;
+  margin: 1rem 0 2rem 0;
 }
 
 .social-links img {
@@ -423,6 +423,9 @@ footer p {
   margin: 2rem auto 4rem;
 }
 
+.copyright {
+  text-align: center;
+}
 /* Grid Styles */
 .grid-col-2 {
   display: grid;
