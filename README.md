@@ -12,7 +12,6 @@ You can view the project live demo [here](https://jesselessa.github.io/landing-p
 - [Installation](#installation)
 - [Usage](#usage)
 - [Screenshots](#screenshots)
-- [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
@@ -39,10 +38,6 @@ Explore the interactive elements, navigate through sections, and experience the 
 
 ![Screenshot 1](./images/screenshots/screenshot1.png)
 ![Screenshot 2](./images/screenshots/screenshot2.png)
-
-## Contributing
-
-Contributions are welcome! Feel free to open issues or submit pull requests.
 
 ## License
 
