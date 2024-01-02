@@ -204,18 +204,16 @@ header {
   background-color: #fff;
   color: #000;
   width: 100%;
-  height: 100%;
+  min-height: calc(100vh - 80px);
   padding: 3rem 5rem;
   box-shadow: inset 0 0.4rem 0.3rem -0.3rem rgb(0 0 0 / 10%),
     inset 0 0.4rem 0.2rem -0.2rem rgb(0 0 0 / 7%);
   transition: all 0.3s;
   z-index: 20;
 }
-
-#burger-menu img {
-  width: 20px;
-  height: 20px;
-  margin-right: 0.5rem;
+.menu-wrapper {
+  height: 100%;
+  overflow-y: auto;
 }
 
 #burger-menu ul {
@@ -235,7 +233,8 @@ header {
 }
 
 .mobile-menu-bottom {
-  margin-top: 3rem;
+  gap: 1rem;
+  padding-top: 3rem;
 }
 
 .mobile-menu-bottom a {
@@ -244,6 +243,12 @@ header {
   font-size: 1.6rem;
   font-weight: bold;
   margin-top: 1rem;
+}
+
+.mobile-menu-bottom img {
+  width: 20px;
+  height: 20px;
+  margin-right: 0.5rem;
 }
 
 .mobile-menu-bottom .btn:nth-child(1) {
@@ -262,7 +267,6 @@ main {
   max-width: 100%;
   position: relative;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 2rem;
   margin-bottom: 2rem;
@@ -274,20 +278,18 @@ main .img-content {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: calc(100vh - 126px);
-  width: 50%;
   height: 100%;
-}
-
-.mainImg {
-  width: 300px;
+  width: 50%;
 }
 
 main .txt-content {
   text-align: center;
   color: var(--color-txtContent);
-  margin-bottom: 3;
   gap: 4rem;
+}
+
+.mainImg {
+  width: 300px;
 }
 
 main .txt-content a {
@@ -300,7 +302,7 @@ main .txt-content a {
 .thumbnails {
   position: absolute;
   left: 50%;
-  bottom: 20px;
+  bottom: 0;
   max-width: 100%;
   display: flex;
   transform: translateX(-50%);
@@ -349,7 +351,8 @@ section {
 }
 
 section .txt-content,
-section .img-content {
+section .img-content,
+section .img-content img {
   width: 100%;
   height: 100%;
 }
@@ -363,12 +366,6 @@ section .txt-content {
   color: var(--color-txtContent);
   padding: 2rem;
   gap: 4rem;
-}
-
-section .img-content,
-section .img-content img {
-  width: 100%;
-  height: 100%;
 }
 
 section .img-content img {
@@ -460,51 +457,30 @@ footer p {
     display: none;
   }
   main {
-    flex-direction: column-reverse;
     min-height: calc(100vh - 80px);
+    flex-direction: column;
+    justify-content: space-around;
     padding: 1rem;
   }
-  main .txt-content,
-  main .img-content {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-  }
   main .txt-content {
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 3rem;
   }
-  main h2 {
-    padding-top: 40px;
-    z-index: 100;
-  }
-  main .btn {
-    position: absolute;
-    bottom: -10px;
-    margin-top: 10px;
-  }
-
   main .img-content {
-    align-items: flex-end;
-    top: 0;
+    padding-top: 3rem;
+    width: 100%;
   }
   .mainImg {
-    position: absolute;
-    bottom: 12%;
-    width: 160px;
+    width: 180px;
+  }
+  .circle {
+    display: none;
   }
   section .txt-content {
     gap: 2rem;
-  }
-  .circle {
-    bottom: 47%;
-    height: 40%;
-  }
-  .thumbnails {
-    bottom: 12%;
-    left: 50%;
   }
   .grid-col-2 {
     grid-template-columns: 1fr;
