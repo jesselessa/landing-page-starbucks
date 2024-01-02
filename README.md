@@ -1,6 +1,6 @@
 # landing-page-starbucks
 
-Welcome to the Starbucks Coffee Company landing page replica ([check original website](https://jesselessa.github.io/landing-page-starbucks/)), crafted with HTML, CSS, and JavaScript. This project aims to recreate the engaging and animated landing page of Starbucks.
+Welcome to the Starbucks Coffee Company landing page replica ([check original website](https://www.starbucks.com/)), crafted with HTML, CSS, and JavaScript. This project aims to recreate the engaging and animated landing page of Starbucks.
 
 ## Demo
 
