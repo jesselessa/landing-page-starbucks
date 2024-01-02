@@ -20,7 +20,7 @@ You can view the project live demo [here](https://jesselessa.github.io/landing-p
 
 - **Responsive Design:** The landing page is designed to work seamlessly on various screen sizes.
 - **Interactive Navigation:** Explore the Starbucks menu, rewards, and gift cards with an interactive navigation bar.
-- **Animated Elements:** Enjoy the visually appealing animations, including the burger menu and a half-circle background.
+- **Animated Elements:** Enjoy the visually appealing animations, including the burger menu and selection between different beverages on homepage.
 - **Engaging Content:** Learn about new frappuccino offerings with compelling visuals and descriptive text.
 - **Multiple Sections:** Discover the latest promotions and products in distinct sections with images and call-to-action buttons.
 - **Social Media Integration:** Stay connected through social media links in the footer.
