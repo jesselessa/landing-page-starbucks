@@ -39,7 +39,6 @@ Explore the interactive elements, navigate through sections, and experience the 
 
 ![Screenshot 1](./images/screenshots/screenshot1.png)
 ![Screenshot 2](./images/screenshots/screenshot2.png)
-![Screenshot 3](./images/screenshots/screenshot3.png)
 
 ## Contributing
 
