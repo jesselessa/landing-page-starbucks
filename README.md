@@ -50,7 +50,7 @@ This project is licensed under the [MIT License](./LICENSE).
 
 ---
 
-© 2024 Jessica ELESSA - All rights reserved.
+© 2023 Jessica ELESSA - All rights reserved.
 
 ## Contact
 
