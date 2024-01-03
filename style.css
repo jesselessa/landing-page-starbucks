@@ -149,12 +149,12 @@ header {
 /* Mobile nav */
 #burger {
   display: none;
-  cursor: pointer;
   width: 24px;
   height: 24px;
   position: relative;
   background: none;
   border: none;
+  cursor: pointer;
   z-index: 10;
   transition: all 0.25s;
 }
@@ -292,7 +292,7 @@ main .txt-content {
 }
 
 .mainImg {
-  width: 300px;
+  width: 280px;
 }
 
 main .txt-content a {
@@ -438,9 +438,6 @@ footer p {
   main .txt-content {
     justify-content: center;
   }
-  .mainImg {
-    width: 300px;
-  }
 }
 
 @media screen and (max-width: 992px) {
@@ -473,7 +470,7 @@ footer p {
     gap: 3rem;
   }
   main .img-content {
-    padding-top: 3rem;
+    padding-top: 2rem;
     width: 100%;
   }
   .mainImg {
