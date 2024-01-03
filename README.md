@@ -11,7 +11,7 @@ You can view the project live demo [here](https://jesselessa.github.io/landing-p
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Screenshots](#screenshots)
+- [Screenshot](#screenshot)
 - [License](#license)
 - [Contact](#contact)
 
@@ -34,10 +34,9 @@ You can view the project live demo [here](https://jesselessa.github.io/landing-p
 
 Explore the interactive elements, navigate through sections, and experience the engaging design of the Starbucks Coffee Company Landing Page replica.
 
-## Screenshots
+## Screenshot
 
-![Screenshot 1](./images/screenshots/screenshot1.png)
-![Screenshot 2](./images/screenshots/screenshot2.png)
+![Screenshot](./images/screenshot.png)
 
 ## Contact
 
