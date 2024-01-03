@@ -42,4 +42,6 @@ Explore the interactive elements, navigate through sections, and experience the 
 
 For inquiries, contact me via [LinkedIn](https://www.linkedin.com/in/jessica-elessa/) or [GitHub](https://github.com/jesselessa).
 
+---
+
 &copy; 2023, Jessica ELESSA - Tous droits réservés
