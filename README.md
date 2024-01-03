@@ -39,14 +39,8 @@ Explore the interactive elements, navigate through sections, and experience the 
 ![Screenshot 1](./images/screenshots/screenshot1.png)
 ![Screenshot 2](./images/screenshots/screenshot2.png)
 
-## License
-
-This project is licensed under the [MIT License](./LICENSE).
-
----
-
-© 2024 Jessica ELESSA - All rights reserved.
-
 ## Contact
 
 For inquiries, contact me via [LinkedIn](https://www.linkedin.com/in/jessica-elessa/) or [GitHub](https://github.com/jesselessa).
+
+&copy; 2023, Jessica ELESSA - Tous droits réservés
