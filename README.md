@@ -45,7 +45,7 @@ Explore the interactive elements, navigate through sections, and experience the 
 
 ## Contact
 
-For inquiries, contact me via [LinkedIn](https://www.linkedin.com/in/jessica-elessa/) or [GitHub](https://github.com/jesselessa).
+For inquiries, contact me via [LinkedIn](https://www.linkedin.com/in/jessica-elessa/).
 
 ---
 
