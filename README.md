@@ -1,13 +1,13 @@
 # landing-page-starbucks
 
-Welcome to the Starbucks Coffee Company landing page replica ([check original website : starbucks.com](https://www.starbucks.com/)). 
+This project is a replica of the Starbucks Coffee Company landing page ([check original website : starbucks.com](https://www.starbucks.com/)). 
 
 ## Table of Contents
 
 - [Demo](#demo)
 - [Stack](#stack)
 - [Screenshot](#screenshot)
-- [Features](#features)
+- [Main features](#main-features)
 - [Run the project locally](#run-the-project-locally)
 - [Contact](#contact)
 
@@ -23,14 +23,10 @@ This project has been created with HTML, CSS and JavaScript.
 
 ![Screenshot](./images/screenshot.png)
 
-## Features
+## Main features
 
-- **Responsive Design:** The landing page is designed to work seamlessly on various screen sizes.
-- **Interactive Navigation:** Explore the Starbucks menu, rewards, and gift cards with an interactive navigation bar.
-- **Animated Elements:** Enjoy the visually appealing animations, including the burger menu and selection between different beverages on homepage.
-- **Engaging Content:** Learn about new frappuccino offerings with compelling visuals and descriptive text.
-- **Multiple Sections:** Discover the latest promotions and products in distinct sections with images and call-to-action buttons.
-- **Social Media Integration:** Stay connected through social media links in the footer.
+- **Responsive design :** the landing page is designed to work seamlessly on various screen sizes.
+- **Animated elements and engaging content :** you can enjoy the visually appealing animations, including the burger menu and selection between different beverages on homepage.
 
 ## Run the project locally
 
