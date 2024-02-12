@@ -8,8 +8,7 @@ Welcome to the Starbucks Coffee Company landing page replica ([check original we
 - [Stack](#stack)
 - [Screenshot](#screenshot)
 - [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
+- [Run the project locally](#run-the-project-locally)
 - [Contact](#contact)
 
 ## Demo
@@ -33,15 +32,11 @@ This project has been created with HTML, CSS and JavaScript.
 - **Multiple Sections:** Discover the latest promotions and products in distinct sections with images and call-to-action buttons.
 - **Social Media Integration:** Stay connected through social media links in the footer.
 
-## Installation
+## Run the project locally
 
-1. Clone the repository: `git clone https://github.com/jesselessa/landing-page-starbucks.git`
-2. Navigate to the project directory: `cd landing-page-starbucks`
+1. Clone the repository : `git clone https://github.com/jesselessa/landing-page-starbucks.git`
+2. Navigate to the project directory : `cd landing-page-starbucks`
 3. Open the `index.html` file in your preferred browser.
-
-## Usage
-
-Explore the interactive elements, navigate through sections, and experience the engaging and animated design of the Starbucks Coffee Company landing page replica.
 
 ## Contact
 
