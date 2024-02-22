@@ -1,6 +1,6 @@
 # landing-page-starbucks
 
-This project is a replica of the Starbucks Coffee Company landing page ([check original website : starbucks.com](https://www.starbucks.com/)). 
+This project is a redesign of Starbucks landing page, an American coffee chain, aiming to create a more engaging and intuitive experience for the user ([check original website : starbucks.com](https://www.starbucks.com/)). 
 
 ## Table of Contents
 
