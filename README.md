@@ -36,7 +36,7 @@ This project has been created with HTML, CSS and JavaScript.
 
 ## Contact
 
-For inquiries, contact me via [LinkedIn](https://www.linkedin.com/in/jessica-elessa/).
+For inquiries, contact me via [LinkedIn](https://www.linkedin.com/in/jesselessa/).
 
 ---
 
