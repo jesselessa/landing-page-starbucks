@@ -13,7 +13,7 @@ This project is a redesign of Starbucks landing page, an American coffee chain, 
 
 ## Demo
 
-You can view the project live demo [here](https://jesselessa.github.io/landing-page-starbucks/).
+You can view the project live demo [here](https://starbucks.jesselessa.dev).
 
 ## Stack
 
